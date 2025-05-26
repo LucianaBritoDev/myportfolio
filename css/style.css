@@ -1,0 +1,126 @@
+/* Fundo preto moderno */
+body {
+  background: linear-gradient(135deg, #111 0%, #222 50%, #333 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+/* Container com fundo branco e sombra */
+.container {
+  background: rgba(255,255,255,0.95);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.2);
+  margin-bottom: 32px;
+  color: #222;
+}
+
+/* Títulos modernos */
+h1, h2, h3, h4, h5 {
+  color: #6a11cb;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Botões modernos */
+input[type="button"],
+footer input[type="button"] {
+  background: linear-gradient(90deg, #111 0%, #232526 100%);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 28px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+  margin: 8px 0;
+  box-shadow: 0 2px 8px rgba(31,38,135,0.15);
+}
+
+input[type="button"]:hover,
+footer input[type="button"]:hover {
+  background: linear-gradient(90deg, #232526 0%, #111 100%);
+  transform: translateY(-2px) scale(1.07);
+  box-shadow: 0 4px 16px rgba(31,38,135,0.22);
+  cursor: pointer;
+}
+
+/* Links do footer */
+footer {
+  background: rgba(255,255,255,0.8);
+  color: #222;
+  border-radius: 12px 12px 0 0;
+}
+
+footer a {
+  color: #6a11cb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #2575fc;
+}
+
+/* Hover especial para botões do footer */
+footer input[type="button"] {
+  background: linear-gradient(90deg, #111 0%, #232526 100%);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 28px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+  margin: 8px 0;
+  box-shadow: 0 2px 8px rgba(31,38,135,0.15);
+}
+
+footer input[type="button"]:hover {
+  background: linear-gradient(90deg, #232526 0%, #111 100%);
+  transform: translateY(-2px) scale(1.07);
+  box-shadow: 0 4px 16px rgba(31,38,135,0.22);
+  cursor: pointer;
+}
+
+/* Imagens arredondadas */
+img {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(106,17,203,0.08);
+}
+
+/* Ajuste para listas */
+ul {
+  padding-left: 1.2rem;
+}
+
+/* Pequeno efeito nos cards ao passar o mouse */
+.container:hover {
+  box-shadow: 0 12px 40px 0 rgba(31,38,135,0.25);
+  transition: box-shadow 0.3s;
+}
+
+.rowindex {
+  background: linear-gradient(120deg, #111 0%, #232526 50%, #333 100%);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
